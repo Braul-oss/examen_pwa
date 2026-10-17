@@ -1,0 +1,23 @@
+# Directorio de trabajo de Terraform
+.terraform/
+
+# Archivos de estado (contienen contraseñas generadas y datos de la suscripción)
+*.tfstate
+*.tfstate.*
+
+# Archivos de variables que pueden contener información sensible
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Archivos de configuración local
+.terraformrc
+terraform.rc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de planes de ejecución
+*.tfplan
+tfplan
